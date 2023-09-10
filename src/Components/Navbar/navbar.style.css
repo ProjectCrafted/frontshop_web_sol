@@ -1,0 +1,43 @@
+*{
+    margin: 0;
+    font-family: sans-serif;
+    position: relative;
+}
+
+nav{
+    padding: 0px 25px;
+    height: 150px;
+    background-image: linear-gradient(-225deg, #7085B6 0%, #87A7D9 50%, #DEF3F8 100%);;
+
+}
+
+
+.display01{
+    display: flex;
+    justify-content: space-between;
+    height: 100px;
+
+}
+
+.text01{
+    text-align: center;
+    padding: 20px 100px;
+}
+
+ .items01{
+     display: flex;
+ }
+
+.items01 h1{
+    padding: 20px 10px;
+
+ }
+
+ .items02{
+     position: static;
+     display: flex;
+     justify-content: space-between;
+ }
+ .images{
+     height: 300vh;
+ }

@@ -1,0 +1,21 @@
+.card-container {
+    margin: 0 auto;
+    text-align: center;
+    width: 43vh;
+    height: 50vh;
+    border: 1px solid grey;
+    border-radius: 5px;
+    padding: 45px 25px;
+    -moz-osx-font-smoothing: grayscale;
+    backface-visibility: hidden;
+    transform: translateZ(0);
+    transition: transform 0.25s ease-out;
+}
+
+.card-container:hover {
+    transform: scale(1.05);
+}
+img{
+    width: 200px;
+    height: 200px;
+}
